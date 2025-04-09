@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fotogram</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="./img/favicon.png" type="image/x-icon">
+</head>
+<body onload="renderImages()" id="body">
+
+    <!-- load overlay for the hole page with d-none -->
+    <div class="overlay d-none" id="overlay"></div>
+
+        <!-- big image placeholder for the big images  -->
+        <div class="big-image d-none" id="bigImageContainer">
+      
+        </div>
+    </div>
+
+    <header class="header">
+
+        <div>
+            <img class="img" src='./img/Fotogram_Logo.svg' alt='Logo: Fotogramm'>
+        </div>
+        <div>
+            <span class="span">Your personal photo album</span>
+        </div>    
+
+    </header>
+
+    <!-- main is for all the small images -->
+    <main class="main" id="main">
+    </main>
+   
+
+    <footer class="the-end">
+        <img class="img" src='./img/Fotogram_Logo.svg' alt='Logo: Fotogramm'>
+        <a href="impressum.html" class="span link">Impressum</a>
+    </footer>
+    
+</body>
+<script src="script.js"></script>
+</html>
